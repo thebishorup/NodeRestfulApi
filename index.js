@@ -1,3 +1,4 @@
+const rentals = require('./routes/rentals');
 const movies = require('./routes/movies');
 const customers = require('./routes/customers')
 const genres = require('./routes/genres');
@@ -18,6 +19,7 @@ mongoose.connect('mongodb://localhost/vidly')
 app.use('/api/genres', genres);
 app.use('/api/customers', customers);
 app.use('/api/movies', movies);
+app.use('/api/rentals', rentals);
 
 //Reading the port from environment variable
 const port = process.env.PORT || 3000;
