@@ -13,10 +13,13 @@
     "config": "^2.0.1",
     "eslint": "^5.3.0",
     "express": "^4.16.3",
+    "express-async-errors": "^3.0.0",
     "fawn": "^2.1.5",
     "joi": "^13.6.0",
     "jsonwebtoken": "^8.3.0",
     "lodash": "^4.17.10",
-    "mongoose": "^5.2.8"
+    "mongoose": "^5.2.8",
+    "winston": "^2.4.0",
+    "winston-mongodb": "^4.0.3"
   }
 }
